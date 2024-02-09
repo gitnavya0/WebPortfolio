@@ -211,9 +211,23 @@ body::before {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 20px;
-        font-weight: normal;
-        margin-top: -280px;
-        color: var(--text);
+        font-size: 40px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .socials a {
+        margin-right: 10px;
+    }
+
+    .pic {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .blob-cont {
+        display: none;
     }
 }
