@@ -211,11 +211,11 @@ body::before {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 40px;
+        font-size: 14px;
     }
 
     a {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .socials a {
