@@ -208,3 +208,12 @@ body::before {
         transform: scale(1.1);
     }
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+        font-weight: normal;
+        margin-top: -280px;
+        color: var(--text);
+    }
+}
